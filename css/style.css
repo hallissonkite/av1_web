@@ -1,0 +1,99 @@
+
+body {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.header {
+    display: inline-flexbox;
+    position: relative;
+    background-color: gray;
+}
+.icon {
+    height: 6%; 
+    width: 6%;
+}
+.background_Color_Buttons {
+    display: inline-flex;
+    position: relative;
+    float: right;
+    
+}
+.b1 {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+.b2 {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 4px;
+    border-color: red;
+    cursor: pointer;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+.b3 {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 50px;
+    border-radius: 4px;
+    border-color: white;
+    cursor: pointer;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+h1 {
+    margin-top: 10%;
+}
+form {
+    width: 40%;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+form div + div {
+    margin-top: 10px;
+}
+label {
+    
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+input {
+    width: 300px;
+    box-sizing: border-box;
+    border-radius: 5px ;
+    border-color: gray;
+}
+.button {
+    margin-left: 58%;
+    
+}
+.btn_Send_Menssage {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    border-color: black;
+}

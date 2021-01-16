@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title> AV1 </title>
+        <link rel="stylesheet" href="../css/style.css">
+        <script type=""></script>
+        <meta charset="utf-8">
+
+    </head>
+
+    <body>
+        <div class="header">
+
+            <img class="icon" src="../imgs/rocket.png" alt="icon" >
+
+            <div class="background_Color_Buttons">
+                <button class="b1" onclick="set_Color(1)"> Black </button>
+                <button class="b2" onclick="set_Color(2)"> Red </button> 
+                <button class="b3" onclick="set_Color(3)"> White </button> 
+            </div>
+            
+            <script>
+
+                function set_Color(num) {
+                    if(num == 1) {
+                        document.querySelector("body").style.background = "Black";
+                        document.querySelector("body").style.color = "White";
+                    }
+
+                    if(num == 2) {
+                        document.querySelector("body").style.background = "Red";
+                        document.querySelector("body").style.color = "Initial";
+                    }
+
+                    if(num == 3) {
+                        document.querySelector("body").style.background = "Initial";
+                        document.querySelector("body").style.color = "Initial";
+                    }
+                }
+
+            </script>
+         
+
+        </div>
+
+        <h1> Mural de mensagens</h1>
+        <h2>Deixe seu recado</h2>
+
+        <form action="/pagina-processa-dados-do-form" method="post">
+            <div>
+                <label for="name"> Name: </label>
+                <input type="text" id="name"/>
+            </div>
+            
+            <div>
+                <label for="msg"> Mensage: </label>
+                <input type="text" id="msg"/>
+            </div>
+
+            <div class="button">
+                <button class="btn_Send_Menssage" type="submit">Send</button>
+            </div>
+        </form>
+
+        <script>
+            if (document.querySelector("body").style.background == "Black") {
+                document.querySelector("btn_Send_Menssage").style.background = "White";
+            }
+        </script>
+
+
+            
+
+    </body>
+
+</html>
